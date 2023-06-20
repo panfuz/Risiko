@@ -110,32 +110,15 @@ List<Territorio> oceania = new List<Territorio>() {
 };
 
 
-<<<<<<< HEAD
-
-
-
-
-
-
 
 
 Continente c1 = new Continente("c1", "Nord America", americaNord);
 Continente c2 = new Continente("c2", "Sud America", americaSud);
 Continente c3 = new Continente("c3", "Africa", africa);
-Continente c4 = new Continente("c4", "Europa", new List<Territorio>() { europa });
-Continente c5 = new Continente("c5", "Asia", new List<Territorio>() { asia });
-Continente c6 = new Continente("c6", "Oceania", new List<Territorio>() { oceania });
+Continente c4 = new Continente("c4", "Europa", europa);
+Continente c5 = new Continente("c5", "Asia", asia);
+Continente c6 = new Continente("c6", "Oceania", oceania);
 
-=======
-=======
-Continente c1 = new Continente("c1", "Nord America", americaNord );
-Continente c2 = new Continente("c2", "Sud America",  americaSud );
-Continente c3 = new Continente("c3", "Africa", africa );
-Continente c4 = new Continente("c4", "Europa",  europa );
-Continente c5 = new Continente("c5", "Asia",  asia );
-Continente c6 = new Continente("c6", "Oceania",  oceania );
->>>>>>> b86c76702596be4c3a7b312d3585b6ed975ce8fb
->>>>>>> cf4290cf0650c26ff43e61a66f70774286ad97b8
 
 Obiettivo o1 = new Obiettivo("o1", "Conquista la totalità di Asia e America del Sud");
 Obiettivo o2 = new Obiettivo("o2", "Conquista la totalità di Oceania e Nord America");
