@@ -1,9 +1,9 @@
-Continente c1 = new Continente("c1", "Nord America", new List<Territorio>() { });
-Continente c2 = new Continente("c2", "Sud America", new List<Territorio>() { });
-Continente c3 = new Continente("c3", "Africa", new List<Territorio>() { });
-Continente c4 = new Continente("c4", "Europa", new List<Territorio>() { });
-Continente c5 = new Continente("c5", "Asia", new List<Territorio>() { });
-Continente c6 = new Continente("c6", "Oceania", new List<Territorio>() { });
+Continente c1 = new Continente("c1", "Nord America", new List<Territorio>() {americaNord });
+Continente c2 = new Continente("c2", "Sud America", new List<Territorio>() {americaSud });
+Continente c3 = new Continente("c3", "Africa", new List<Territorio>() {africa });
+Continente c4 = new Continente("c4", "Europa", new List<Territorio>() {europa });
+Continente c5 = new Continente("c5", "Asia", new List<Territorio>() {asia });
+Continente c6 = new Continente("c6", "Oceania", new List<Territorio>() {oceania });
 
 Obiettivo o1 = new Obiettivo("o1", "Conquista la totalità di Asia e America del Sud");
 Obiettivo o2 = new Obiettivo("o2", "Conquista la totalità di Oceania e Nord America");
