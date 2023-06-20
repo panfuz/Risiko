@@ -1,9 +1,11 @@
 public class Confine
 {
-    string territori;
+    public int IdTerritorio { get; set; }
+    public List<int> TerritoriConfinanti { get; set; }
 
-    public Confine(string Territori)
+    public Confine(int idTerritorio, List<int> territoriConfinanti)
     {
-        territori = Territori;
+        IdTerritorio = idTerritorio;
+        TerritoriConfinanti = territoriConfinanti;
     }
 }

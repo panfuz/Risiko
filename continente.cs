@@ -1,13 +1,14 @@
+
 public class Continente
 {
-    string id;
-    string nome;
-    string territori;
+    public int Id { get; set; }
+    public string Nome { get; set; }
+    public List<Territorio> Territori { get; set; }
 
-    public Continente(string Id, string Nome, string Territori)
+    public Continente(int id, string nome, List<Territorio> territori)
     {
-        id = Id;
-        territori = Territori;
-        nome = Nome;
+        Id = id;
+        Nome = nome;
+        Territori = territori;
     }
 }

@@ -1,20 +1,17 @@
 public class Territorio
 {
-    string id;
-    string nome;
-    string id_continente;
-    string simbolo;
-    string confini;
-    string truppe;
+    public string Id { get; set; }
+    public string Nome { get; set; }
+    public string IdContinente { get; set; }
+    public string Simbolo { get; set; }
+    public string Confine { get; set; }
 
-    public Territorio(string Id, string Nome, string Id_continente, string Simbolo, string Confini, string Truppe)
+    public Territorio(string id, string nome, string idContinente, string simbolo, string confine)
     {
-        id = Id;
-        nome = Nome;
-        id_continente = Id_continente;
-        simbolo = Simbolo;
-        confini = Confini;
-        truppe = Truppe;
-
+        Id = id;
+        Nome = nome;
+        IdContinente = idContinente;
+        Simbolo = simbolo;
+        Confine = confine;
     }
 }
