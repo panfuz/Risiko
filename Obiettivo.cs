@@ -1,7 +1,8 @@
 public class Obiettivo
 {
-    string id;
-    string descrizione;
+    public string id { get; set; }
+    public string descrizione { get; set; }
+
 
     public Obiettivo(string Id, string Descrizione)
     {
