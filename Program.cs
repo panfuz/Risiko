@@ -110,13 +110,6 @@ List<Territorio> oceania = new List<Territorio>() {
 };
 
 
-
-
-
-
-
-
-
 =======
 Continente c1 = new Continente("c1", "Nord America", new List<Territorio>() {americaNord });
 Continente c2 = new Continente("c2", "Sud America", new List<Territorio>() {americaSud });
