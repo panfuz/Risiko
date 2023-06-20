@@ -5,3 +5,6 @@ Obiettivo o4 = new Obiettivo("o4", "Annienta le armate rosse, se sei tu o vengon
 Obiettivo o5 = new Obiettivo("o5", "Annienta le armate nere, se sei tu o vengono annientate da un altro giocatore conquista 24 territori");
 Obiettivo o6 = new Obiettivo("o6", "Conquista la totalità di Oceania, Asia e America del Sud");﻿
 
+Giocatore g1 = new Giocatore("g1", "Franco");
+Giocatore g2 = new Giocatore("g2", "Stino");
+Giocatore g3 = new Giocatore("g3", "Lagipe");
