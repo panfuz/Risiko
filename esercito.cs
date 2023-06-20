@@ -1,13 +1,14 @@
 public class Esercito
 {
-    string id;
-    string id_giocatore;
-    string truppe_agg;
+    public string id { get; set; }
+    public int id_giocatore { get; set; }
 
-    public Esercito(string Id, string Id_giocatore, string Truppe_agg)
+    public List<int> truppe { get; set; }
+
+    public Esercito(string Id, int Id_giocatore, List<int> Truppe)
     {
         id = Id;
         id_giocatore = Id_giocatore;
-        truppe_agg = Truppe_agg;
+        truppe = Truppe;
     }
 }
