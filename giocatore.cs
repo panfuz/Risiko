@@ -1,7 +1,7 @@
 public class Giocatore
 {
-    string id;
-    string nome;
+    string id { get; set; }
+    string nome { get; set; }
 
     public Giocatore(string Id, string Nome)
     {
