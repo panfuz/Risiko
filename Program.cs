@@ -1,55 +1,55 @@
 ﻿
-Territorio american1 = new Territorio("american1", "Groenlandia", "c1", "cavaliere", confini[]);
-Territorio american2 = new Territorio("american2", "Alaska", "american", "c1", confini[]);
-Territorio american3 = new Territorio("american3", "Territori Nord-Ovest", "c1", "cavaliere", confini[]);
-Territorio american4 = new Territorio("american4", "Alberta", "c1", "cavaliere", confini[]);
-Territorio american5 = new Territorio("american5", "Ontario", "c1", "cavaliere", confini[]);
-Territorio american6 = new Territorio("american6", "Quebec", "c1", "cavaliere", confini[]);
-Territorio american7 = new Territorio("american7", "USA Orientali", "c1", "cavaliere", confini[]);
-Territorio american8 = new Territorio("american8", "America Centrale", "c1", "cavaliere", confini[]);
-Territorio american9 = new Territorio("american9", "USA Occidentali", "c1", "cavaliere", confini[]);
+Territorio american1 = new Territorio("american1", "Groenlandia", "c1", "cavaliere");
+Territorio american2 = new Territorio("american2", "Alaska", "american", "c1");
+Territorio american3 = new Territorio("american3", "Territori Nord-Ovest", "c1", "cavaliere");
+Territorio american4 = new Territorio("american4", "Alberta", "c1", "cavaliere");
+Territorio american5 = new Territorio("american5", "Ontario", "c1", "cavaliere");
+Territorio american6 = new Territorio("american6", "Quebec", "c1", "cavaliere");
+Territorio american7 = new Territorio("american7", "USA Orientali", "c1", "cavaliere");
+Territorio american8 = new Territorio("american8", "America Centrale", "c1", "cavaliere");
+Territorio american9 = new Territorio("american9", "USA Occidentali", "c1", "cavaliere");
 
 
-Territorio americas1 = new Territorio("americas1", "Argentina", "c2", "cavaliere", confini[]);
-Territorio americas2 = new Territorio("americas2", "Brasile", "c2", "cavaliere", confini[]);
-Territorio americas3 = new Territorio("americas3", "Perù", "c2", "cavaliere", confini[]);
-Territorio americas4 = new Territorio("americas4", "Venezuela", "c2", "cavaliere", confini[]);
+Territorio americas1 = new Territorio("americas1", "Argentina", "c2", "cavaliere");
+Territorio americas2 = new Territorio("americas2", "Brasile", "c2", "cavaliere");
+Territorio americas3 = new Territorio("americas3", "Perù", "c2", "cavaliere");
+Territorio americas4 = new Territorio("americas4", "Venezuela", "c2", "cavaliere");
 
 
-Territorio europa1 = new Territorio("europa1", "Islanda", "c4", "cavaliere", confini[]);
-Territorio europa2 = new Territorio("europa2", "Gran Bretagna", "c4", "fante", confini[]);
-Territorio europa3 = new Territorio("europa3", "Scandinavia", "c4", "fante", confini[]);
-Territorio europa4 = new Territorio("europa4", "Europa Occidentale", "c4", "fante", confini[]);
-Territorio europa5 = new Territorio("europa5", "Europa Settentrionale", "c4", "fante", confini[]);
-Territorio europa6 = new Territorio("europa6", "Europa Meridionale", "c4", "fante", confini[]);
-Territorio europa7 = new Territorio("europa7", "Ucraina", "c4", "fante", confini[]);
+Territorio europa1 = new Territorio("europa1", "Islanda", "c4", "cavaliere");
+Territorio europa2 = new Territorio("europa2", "Gran Bretagna", "c4", "fante");
+Territorio europa3 = new Territorio("europa3", "Scandinavia", "c4", "fante");
+Territorio europa4 = new Territorio("europa4", "Europa Occidentale", "c4", "fante");
+Territorio europa5 = new Territorio("europa5", "Europa Settentrionale", "c4", "fante");
+Territorio europa6 = new Territorio("europa6", "Europa Meridionale", "c4", "fante");
+Territorio europa7 = new Territorio("europa7", "Ucraina", "c4", "fante");
 
 
-Territorio africa1 = new Territorio("africa1", "Egitto", "c3", "fante", confini[]);
-Territorio africa2 = new Territorio("africa2", "Congo", "c3", "fante", confini[]);
-Territorio africa3 = new Territorio("africa3", "Madagascar", "c3", "fante", confini[]);
-Territorio africa4 = new Territorio("africa4", "Africa del Nord", "c3", "fante", confini[]);
-Territorio africa5 = new Territorio("africa5", "Africa del Sud", "c3", "fante", confini[]);
-Territorio africa6 = new Territorio("africa6", "Africa Orientale", "c3", "fante", confini[]);
+Territorio africa1 = new Territorio("africa1", "Egitto", "c3", "fante");
+Territorio africa2 = new Territorio("africa2", "Congo", "c3", "fante");
+Territorio africa3 = new Territorio("africa3", "Madagascar", "c3", "fante");
+Territorio africa4 = new Territorio("africa4", "Africa del Nord", "c3", "fante");
+Territorio africa5 = new Territorio("africa5", "Africa del Sud", "c3", "fante");
+Territorio africa6 = new Territorio("africa6", "Africa Orientale", "c3", "fante");
 
 
-Territorio asia1 = new Territorio("asia1", "Medio Oriente", "c5", "fante", confini[]);
-Territorio asia2 = new Territorio("asia2", "Urali", "c5", "fante", confini[]);
-Territorio asia3 = new Territorio("asia3", "Afganistan", "c5", "cannone", confini[]);
-Territorio asia4 = new Territorio("asia4", "India", "c5", "cannone", confini[]);
-Territorio asia5 = new Territorio("asia5", "Siam", "c5", "cannone", confini[]);
-Territorio asia6 = new Territorio("asia6", "Cina", "c5", "cannone", confini[]);
-Territorio asia7 = new Territorio("asia7", "Mongolia", "c5", "cannone", confini[]);
-Territorio asia8 = new Territorio("asia8", "Jacuzia", "c5", "cannone", confini[]);
-Territorio asia9 = new Territorio("asia9", "Čita", "c5", "cannone", confini[]);
-Territorio asia10 = new Territorio("asia10", "Kamchatka", "c5", "cannone", confini[]);
-Territorio asia11 = new Territorio("asia11", "Giappone", "c5", "cannone", confini[]);
+Territorio asia1 = new Territorio("asia1", "Medio Oriente", "c5", "fante");
+Territorio asia2 = new Territorio("asia2", "Urali", "c5", "fante");
+Territorio asia3 = new Territorio("asia3", "Afganistan", "c5", "cannone");
+Territorio asia4 = new Territorio("asia4", "India", "c5", "cannone");
+Territorio asia5 = new Territorio("asia5", "Siam", "c5", "cannone");
+Territorio asia6 = new Territorio("asia6", "Cina", "c5", "cannone");
+Territorio asia7 = new Territorio("asia7", "Mongolia", "c5", "cannone");
+Territorio asia8 = new Territorio("asia8", "Jacuzia", "c5", "cannone");
+Territorio asia9 = new Territorio("asia9", "Čita", "c5", "cannone");
+Territorio asia10 = new Territorio("asia10", "Kamchatka", "c5", "cannone");
+Territorio asia11 = new Territorio("asia11", "Giappone", "c5", "cannone");
 
 
-Territorio oceania1 = new Territorio("oceania1", "Nuova Guinea", "c6", "cannone", confini[]);
-Territorio oceania2 = new Territorio("oceania1", "Indonesia", "c6", "cannone", confini[]);
-Territorio oceania3 = new Territorio("oceania1", "Australia Orientale", "c6", "cannone", confini[]);
-Territorio oceania4 = new Territorio("oceania1", "Australia Occidentale", "c6", "cannone", confini[]);
+Territorio oceania1 = new Territorio("oceania1", "Nuova Guinea", "c6", "cannone");
+Territorio oceania2 = new Territorio("oceania1", "Indonesia", "c6", "cannone");
+Territorio oceania3 = new Territorio("oceania1", "Australia Orientale", "c6", "cannone");
+Territorio oceania4 = new Territorio("oceania1", "Australia Occidentale", "c6", "cannone");
 
 List<Territorio> americaNord = new List<Territorio>() {
     american1,
