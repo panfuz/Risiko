@@ -5,6 +5,7 @@ public class Territorio
     public string IdContinente { get; set; }
     public string Simbolo { get; set; }
     public List<Territorio> TerritoriConfinanti { get; set; }
+    public List<Truppa> Truppe { get; set; }
 
     public Territorio(string id, string nome, string idContinente, string simbolo)
     {
@@ -13,6 +14,8 @@ public class Territorio
         IdContinente = idContinente;
         Simbolo = simbolo;
         TerritoriConfinanti = new List<Territorio>();
+        Truppe = new List<Truppa>();
+
     }
 
     public void AggiungiTerritoriCasuali(List<Territorio> territori)
@@ -25,5 +28,9 @@ public class Territorio
         TerritoriConfinanti.Add(territori[indiceTerritorio1]);
         TerritoriConfinanti.Add(territori[indiceTerritorio2]);
     }
+
+
+
+
 }
 

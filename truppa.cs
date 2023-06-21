@@ -8,4 +8,6 @@ public class Truppa
         id = Id;
         id_esercito = Id_esercito;
     }
+
+
 }

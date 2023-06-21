@@ -44,6 +44,7 @@ Territorio asia8 = new Territorio("asia8", "Jacuzia", "c5", "cannone");
 Territorio asia9 = new Territorio("asia9", "Čita", "c5", "cannone");
 Territorio asia10 = new Territorio("asia10", "Kamchatka", "c5", "cannone");
 Territorio asia11 = new Territorio("asia11", "Giappone", "c5", "cannone");
+Territorio asia12 = new Territorio("asia12", "Siberia", "c5", "cannone");
 
 
 Territorio oceania1 = new Territorio("oceania1", "Nuova Guinea", "c6", "cannone");
@@ -100,7 +101,8 @@ List<Territorio> asia = new List<Territorio>() {
     asia8,
     asia9,
     asia10,
-    asia11
+    asia11,
+    asia12
 };
 List<Territorio> oceania = new List<Territorio>() {
     oceania1,
@@ -135,17 +137,122 @@ Continente c5 = new Continente("c5", "Asia", asia);
 Continente c6 = new Continente("c6", "Oceania", oceania);
 
 
+
+
 Obiettivo o1 = new Obiettivo("o1", "Conquista la totalità di Asia e America del Sud");
 Obiettivo o2 = new Obiettivo("o2", "Conquista la totalità di Oceania e Nord America");
 Obiettivo o3 = new Obiettivo("o3", "Conquista la totalità di Africa, Europa e un continente a scelta");
-Obiettivo o4 = new Obiettivo("o4", "Annienta le armate rosse, se sei tu o vengono annientate da un altro giocatore conquista 24 territori");
-Obiettivo o5 = new Obiettivo("o5", "Annienta le armate nere, se sei tu o vengono annientate da un altro giocatore conquista 24 territori");
+Obiettivo o4 = new Obiettivo("o4", "Annienta l'esercito 1, se sei tu o vengono annientate da un altro giocatore conquista 24 territori");
+Obiettivo o5 = new Obiettivo("o5", "Annienta l'esercito 3, se sei tu o vengono annientate da un altro giocatore conquista 24 territori");
 Obiettivo o6 = new Obiettivo("o6", "Conquista la totalità di Oceania, Asia e America del Sud");
 
-Giocatore g1 = new Giocatore("g1", "Franco");
-Giocatore g2 = new Giocatore("g2", "Stino");
-Giocatore g3 = new Giocatore("g3", "Lagipe");
+List<Obiettivo> obiettivi = new List<Obiettivo>()
+{
+    o1, o2, o3, o4, o5, o6
+};
 
-Esercito e1 = new Esercito("e1", "g1", new List<int>() { });
-Esercito e2 = new Esercito("e2", "g2", new List<int>() { });
-Esercito e3 = new Esercito("e3", "g3", new List<int>() { });
+
+Esercito e1 = new Esercito("e1");
+Esercito e2 = new Esercito("e2");
+Esercito e3 = new Esercito("e3");
+
+
+List<Esercito> eserciti = new List<Esercito>()
+{
+    e1, e2, e3
+};
+
+
+//inserimento 14 territori ogni esercito
+Random random = new Random();
+List<Territorio> territoriCasualiE1 = new List<Territorio>();
+for (int i = 0; i < 14; i++)
+{
+    int index = random.Next(territori.Count);
+    Territorio territorioCasuale = territori[index];
+    territoriCasualiE1.Add(territorioCasuale);
+    territori.RemoveAt(index);
+}
+
+foreach (Territorio territorio in territoriCasualiE1)
+{
+    e1.InserisciTerritorio(territorio);
+}
+e1.StampaTerritori();
+
+
+
+
+List<Territorio> territoriCasualiE2 = new List<Territorio>();
+
+for (int i = 0; i < 14; i++)
+{
+    int index = random.Next(territori.Count);
+    Territorio territorioCasuale = territori[index];
+    territoriCasualiE2.Add(territorioCasuale);
+    territori.RemoveAt(index);
+}
+
+foreach (Territorio territorio in territoriCasualiE2)
+{
+    e2.InserisciTerritorio(territorio);
+}
+
+e2.StampaTerritori();
+
+
+
+
+
+List<Territorio> territoriCasualiE3 = new List<Territorio>();
+
+for (int i = 0; i < 13; i++)
+{
+    int index = random.Next(territori.Count);
+    Territorio territorioCasuale = territori[index];
+    territoriCasualiE3.Add(territorioCasuale);
+    territori.RemoveAt(index);
+}
+
+foreach (Territorio territorio in territoriCasualiE3)
+{
+    e3.InserisciTerritorio(territorio);
+}
+e3.StampaTerritori();
+
+
+
+
+//distribuzione obiettivi casualmente
+
+
+//aggiunge confini e 3 truppe a ogni territorio
+foreach (Territorio territorio in territori)
+{
+    territorio.AggiungiTerritoriCasuali(territori);
+    //foreach (var esercito in eserciti)
+    //{
+    //    for (int i = 0; i < 3; i++)
+    //    {
+    //
+    //        territorio.AggiungiTruppa(new Truppa(Guid.NewGuid().ToString(), Id_esercito));
+    //    }
+    //}
+
+}
+
+
+// Stampa dei territori e dei loro territori confinanti
+foreach (Territorio territorio in territori)
+{
+    Console.WriteLine("Territorio: " + territorio.Nome);
+    Console.WriteLine("Territori confinanti:");
+    foreach (Territorio territorioConfinante in territorio.TerritoriConfinanti)
+    {
+        Console.WriteLine("- " + territorioConfinante.Nome);
+    }
+    Console.WriteLine();
+}
+
+
+

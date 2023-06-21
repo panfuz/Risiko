@@ -1,0 +1,15 @@
+C:\Users\PanfiliAndrea\Desktop\Risiko\bin\Debug\net7.0\Risiko.exe
+C:\Users\PanfiliAndrea\Desktop\Risiko\bin\Debug\net7.0\Risiko.deps.json
+C:\Users\PanfiliAndrea\Desktop\Risiko\bin\Debug\net7.0\Risiko.runtimeconfig.json
+C:\Users\PanfiliAndrea\Desktop\Risiko\bin\Debug\net7.0\Risiko.dll
+C:\Users\PanfiliAndrea\Desktop\Risiko\bin\Debug\net7.0\Risiko.pdb
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.csproj.AssemblyReference.cache
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.AssemblyInfoInputs.cache
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.AssemblyInfo.cs
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.csproj.CoreCompileInputs.cache
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.dll
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\refint\Risiko.dll
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.pdb
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\Risiko.genruntimeconfig.cache
+C:\Users\PanfiliAndrea\Desktop\Risiko\obj\Debug\net7.0\ref\Risiko.dll
