@@ -109,6 +109,21 @@ List<Territorio> oceania = new List<Territorio>() {
     oceania4
 };
 
+List<Territorio> territori = new List<Territorio>()
+{
+    american1,american2,american3,american4,american5,american6, american7,american8,american9,
+
+    americas1,americas2,americas3,americas4,
+
+    africa1, africa2, africa3, africa4, africa5, africa6,
+
+    europa1,europa2,europa3, europa4, europa5, europa6, europa7,
+
+    asia1, asia2, asia3, asia4, asia5, asia6,  asia7,  asia8,  asia9,  asia10,  asia11,
+
+    oceania1, oceania2, oceania3, oceania4
+};
+
 
 
 
