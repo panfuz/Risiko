@@ -234,19 +234,10 @@ e2.AggiungiObiettivo(obiettivi);
 e3.AggiungiObiettivo(obiettivi);
 
 
-//aggiunge confini e 3 truppe a ogni territorio
+//aggiunge confini
 foreach (Territorio territorio in territori)
 {
     territorio.AggiungiTerritoriCasuali(territori);
-    //foreach (var esercito in eserciti)
-    //{
-    //    for (int i = 0; i < 3; i++)
-    //    {
-    //
-    //        territorio.AggiungiTruppa(new Truppa(Guid.NewGuid().ToString(), Id_esercito));
-    //    }
-    //}
-
 }
 
 
