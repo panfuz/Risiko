@@ -9,12 +9,10 @@ Territorio american7 = new Territorio("american7", "USA Orientali", "c1", "caval
 Territorio american8 = new Territorio("american8", "America Centrale", "c1", "cavaliere");
 Territorio american9 = new Territorio("american9", "USA Occidentali", "c1", "cavaliere");
 
-
 Territorio americas1 = new Territorio("americas1", "Argentina", "c2", "cavaliere");
 Territorio americas2 = new Territorio("americas2", "Brasile", "c2", "cavaliere");
 Territorio americas3 = new Territorio("americas3", "Perù", "c2", "cavaliere");
 Territorio americas4 = new Territorio("americas4", "Venezuela", "c2", "cavaliere");
-
 
 Territorio europa1 = new Territorio("europa1", "Islanda", "c4", "cavaliere");
 Territorio europa2 = new Territorio("europa2", "Gran Bretagna", "c4", "fante");
@@ -24,14 +22,12 @@ Territorio europa5 = new Territorio("europa5", "Europa Settentrionale", "c4", "f
 Territorio europa6 = new Territorio("europa6", "Europa Meridionale", "c4", "fante");
 Territorio europa7 = new Territorio("europa7", "Ucraina", "c4", "fante");
 
-
 Territorio africa1 = new Territorio("africa1", "Egitto", "c3", "fante");
 Territorio africa2 = new Territorio("africa2", "Congo", "c3", "fante");
 Territorio africa3 = new Territorio("africa3", "Madagascar", "c3", "fante");
 Territorio africa4 = new Territorio("africa4", "Africa del Nord", "c3", "fante");
 Territorio africa5 = new Territorio("africa5", "Africa del Sud", "c3", "fante");
 Territorio africa6 = new Territorio("africa6", "Africa Orientale", "c3", "fante");
-
 
 Territorio asia1 = new Territorio("asia1", "Medio Oriente", "c5", "fante");
 Territorio asia2 = new Territorio("asia2", "Urali", "c5", "fante");
@@ -46,11 +42,11 @@ Territorio asia10 = new Territorio("asia10", "Kamchatka", "c5", "cannone");
 Territorio asia11 = new Territorio("asia11", "Giappone", "c5", "cannone");
 Territorio asia12 = new Territorio("asia12", "Siberia", "c5", "cannone");
 
-
 Territorio oceania1 = new Territorio("oceania1", "Nuova Guinea", "c6", "cannone");
 Territorio oceania2 = new Territorio("oceania1", "Indonesia", "c6", "cannone");
 Territorio oceania3 = new Territorio("oceania1", "Australia Orientale", "c6", "cannone");
 Territorio oceania4 = new Territorio("oceania1", "Australia Occidentale", "c6", "cannone");
+
 
 List<Territorio> americaNord = new List<Territorio>() {
     american1,
@@ -104,6 +100,7 @@ List<Territorio> asia = new List<Territorio>() {
     asia11,
     asia12
 };
+
 List<Territorio> oceania = new List<Territorio>() {
     oceania1,
     oceania2,
@@ -127,18 +124,6 @@ List<Territorio> territori = new List<Territorio>()
 };
 
 
-
-
-Continente c1 = new Continente("c1", "Nord America", americaNord);
-Continente c2 = new Continente("c2", "Sud America", americaSud);
-Continente c3 = new Continente("c3", "Africa", africa);
-Continente c4 = new Continente("c4", "Europa", europa);
-Continente c5 = new Continente("c5", "Asia", asia);
-Continente c6 = new Continente("c6", "Oceania", oceania);
-
-
-
-
 Obiettivo o1 = new Obiettivo("o1", "Conquista la totalità di Asia e America del Sud");
 Obiettivo o2 = new Obiettivo("o2", "Conquista la totalità di Oceania e Nord America");
 Obiettivo o3 = new Obiettivo("o3", "Conquista la totalità di Africa, Europa e un continente a scelta");
@@ -155,7 +140,6 @@ List<Obiettivo> obiettivi = new List<Obiettivo>()
 Esercito e1 = new Esercito("e1");
 Esercito e2 = new Esercito("e2");
 Esercito e3 = new Esercito("e3");
-
 
 List<Esercito> eserciti = new List<Esercito>()
 {
