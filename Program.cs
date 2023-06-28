@@ -163,8 +163,11 @@ List<Esercito> eserciti = new List<Esercito>()
 };
 
 
-//inserimento 14 territori ogni esercito
+
 Random random = new Random();
+
+//inserimento 14 territori esercito 1
+
 List<Territorio> territoriCasualiE1 = new List<Territorio>();
 for (int i = 0; i < 14; i++)
 {
@@ -183,6 +186,7 @@ e1.StampaTerritori();
 
 
 
+//inserimento 14 territori esercito 2
 List<Territorio> territoriCasualiE2 = new List<Territorio>();
 
 for (int i = 0; i < 14; i++)
@@ -204,6 +208,7 @@ e2.StampaTerritori();
 
 
 
+//inserimento 14 territori esercito 3
 List<Territorio> territoriCasualiE3 = new List<Territorio>();
 
 for (int i = 0; i < 13; i++)
@@ -224,6 +229,9 @@ e3.StampaTerritori();
 
 
 //distribuzione obiettivi casualmente
+e1.AggiungiObiettivo(obiettivi);
+e2.AggiungiObiettivo(obiettivi);
+e3.AggiungiObiettivo(obiettivi);
 
 
 //aggiunge confini e 3 truppe a ogni territorio
