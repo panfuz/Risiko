@@ -1,7 +1,7 @@
 public class Truppa
 {
-    string id { get; set; }
-    string id_esercito { get; set; }
+    public string id { get; set; }
+    public string id_esercito { get; set; }
 
     public Truppa(string Id, string Id_esercito)
     {

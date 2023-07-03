@@ -237,5 +237,45 @@ foreach (Territorio territorio in territori)
     Console.WriteLine();
 }
 
+//aggiunta 35 truppe iniziali a ogni esercito e aggiunta truppe a ogni territorio
+
+e1.AggiungiTruppeIniziali();
+e2.AggiungiTruppeIniziali();
+e3.AggiungiTruppeIniziali();
 
 
+//stampa delle truppe assegnate a ogni territorio
+Console.WriteLine("Truppe nell'esercito 1:");
+foreach (Territorio territorio in e1.TerritoriContenuti)
+{
+    Console.WriteLine("Territorio: " + territorio.Nome);
+    foreach (Truppa truppa in territorio.Truppe)
+    {
+        Console.WriteLine("ID: " + truppa.id + ", ID Esercito: " + truppa.id_esercito);
+    }
+    Console.WriteLine();
+}
+
+
+Console.WriteLine("Truppe nell'esercito 1:");
+foreach (Territorio territorio in e1.TerritoriContenuti)
+{
+    Console.WriteLine("Territorio: " + territorio.Nome);
+    foreach (Truppa truppa in territorio.Truppe)
+    {
+        Console.WriteLine("ID: " + truppa.id + ", ID Esercito: " + truppa.id_esercito);
+    }
+    Console.WriteLine();
+}
+
+
+Console.WriteLine("Truppe nell'esercito 3:");
+foreach (Territorio territorio in e3.TerritoriContenuti)
+{
+    Console.WriteLine("Territorio: " + territorio.Nome);
+    foreach (Truppa truppa in territorio.Truppe)
+    {
+        Console.WriteLine("ID: " + truppa.id + ", ID Esercito: " + truppa.id_esercito);
+    }
+    Console.WriteLine();
+}
